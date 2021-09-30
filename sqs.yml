@@ -1,6 +1,6 @@
 ---
   AWSTemplateFormatVersion: '2010-09-09'
-  Description: Creates an SQS Queue.
+  Description: Creates an SQS Test Queue.
   Resources:
     MyQueue:
       Type: AWS::SQS::Queue
