@@ -1,0 +1,18 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: 3.7
+    commands:
+      - echo install Cleanup phase started on `date`
+  build:
+    commands:
+      - echo Build Cleanup phase started on `date`
+      # - taskcat test run --no-delete
+      # - taskcat test run -k
+  post_build:
+    commands:
+      - echo Build Cleanup completed on `date`
+artifacts:
+  files:
+    - '**/*'
