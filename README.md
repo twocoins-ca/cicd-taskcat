@@ -3,7 +3,7 @@
 
 This Quick Start deploys a continuous integration and continuous delivery (CI/CD) pipeline on the Amazon Web Services (AWS) Cloud for automatically testing AWS CloudFormation templates from a GitHub repository. 
 
-The Quick Start sets up a CI/CD environment that includes AWS TaskCat for testing, AWS CodePipeline for continuous integration, and AWS CodeBuild as your build service.
+The blog sets up a CI/CD environment that includes AWS TaskCat for testing, AWS CodePipeline for continuous integration, and AWS CodeBuild as your build service.
 
 ![image](https://user-images.githubusercontent.com/91735129/135618914-dada2b6e-0fa6-4ff9-8367-92a37ae1649b.png)
 
